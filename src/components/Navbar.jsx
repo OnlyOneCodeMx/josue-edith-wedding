@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { Transition } from '@headlessui/react';
-import NavList from './ui/NavList'
+import NavList from './ui/NavList';
 
 function Nav() {
   const ref = useRef();
@@ -18,7 +18,7 @@ function Nav() {
               </div>
               <div className="hidden lg:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <NavList tailwindClass= "text-sm"/>
+                  <NavList tailwindClass="text-sm" />
                 </div>
               </div>
             </div>
@@ -75,7 +75,7 @@ function Nav() {
           leaveTo="opacity-0 scale-95">
           <div className="md:hidden" id="mobile-menu">
             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <NavList tailwindClass= "text-base block"/>
+              <NavList tailwindClass="text-base block" />
             </div>
           </div>
         </Transition>
