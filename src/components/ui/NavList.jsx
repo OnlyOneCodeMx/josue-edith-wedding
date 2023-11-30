@@ -14,29 +14,29 @@ export default function NavList({ tailwindClass }) {
       </a>
 
       <a
-        href="#"
+        href="#nuestraHistoria"
         className={`${tailwindClass} text-black hover:bg-[#85BFAB] hover:text-black px-3 py-2 rounded-md font-medium`}>
         Nuestra historia
       </a>
 
       <a
-        href="#"
+        href="#ceremonia"
         className={`${tailwindClass} text-black hover:bg-[#85BFAB] hover:text-black px-3 py-2 rounded-md font-medium`}>
         Ceremonia
       </a>
 
       <a
-        href="#"
+        href="#hospedaje"
         className={`${tailwindClass} text-black hover:bg-[#85BFAB] hover:text-black px-3 py-2 rounded-md font-medium`}>
         Hospedaje
       </a>
       <a
-        href="#"
+        href="#galeria"
         className={`${tailwindClass} text-black hover:bg-[#85BFAB] hover:text-black px-3 py-2 rounded-md font-medium`}>
         Galería
       </a>
       <a
-        href="#"
+        href="#regalos"
         className={`${tailwindClass} text-black hover:bg-[#85BFAB] hover:text-black px-3 py-2 rounded-md font-medium`}>
         Mesa de regalos
       </a>

@@ -15,7 +15,7 @@ export default function HeroSection() {
             backgroundImage: `url(${heroImage})`,
           }}></div>
         <div className=" relative z-20 max-w-6xl">
-          <h1 className="text-center py-14 text-5xl md:text-6xl text-slate-100 font-courgette lg:my-36">
+          <h1 className="text-center pb-14 mt-28 text-5xl md:text-6xl text-slate-100 font-courgette lg:my-36">
             ¡Contraeremos Matrimonio!
           </h1>
           <div className="flex flex-col items-center lg:flex-row">
@@ -26,7 +26,12 @@ export default function HeroSection() {
               phrase={JOSUE.frase}
             />
 
-            <img className="w-24 h-24 lg:w-32 lg:h-32" src={corazon1} alt="" />
+            <img
+              id="nuestroDia"
+              className="w-24 h-24 lg:w-32 lg:h-32"
+              src={corazon1}
+              alt=""
+            />
 
             <Card
               name={EDITH.name}
