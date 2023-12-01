@@ -1,6 +1,7 @@
 import CountDownTimer from './CountDownTimer';
 import HeroSection from './HeroSection';
 import HistorySection from './HistorySection';
+import CeremonySection from './CeremonySection';
 
 export default function Main() {
   return (
@@ -8,6 +9,7 @@ export default function Main() {
       <HeroSection />
       <CountDownTimer />
       <HistorySection />
+      <CeremonySection />
     </main>
   );
 }

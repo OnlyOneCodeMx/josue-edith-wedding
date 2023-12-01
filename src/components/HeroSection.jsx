@@ -2,7 +2,7 @@ import heroImage from './../assets/3Timeline-hero.jpeg';
 import josueImage from './../assets/josue.jpeg';
 import edithImage from './../assets/edith.jpeg';
 import corazon1 from './../assets/corazon1.png';
-import Card from './ui/Card';
+import Card from './ui/CardHero';
 import { JOSUE, EDITH } from './constants';
 
 export default function HeroSection() {
