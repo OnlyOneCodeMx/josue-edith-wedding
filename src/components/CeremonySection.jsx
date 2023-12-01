@@ -13,7 +13,7 @@ export default function CeremonySection() {
         date="Viernes, 23 de Julio del 2023"
         hour="2:30 PM"
         location="Cabañas el Diamante"
-        mapLink="https://maps.app.goo.gl/XZ326e5svj4x4m4X7"
+        mapLink="https://maps.app.goo.gl/3gSTJXUx1BizXFx4A"
       />
     </section>
   );
