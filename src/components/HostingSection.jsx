@@ -4,10 +4,10 @@ import laCabaña from './../assets/laCabaña.jpeg';
 import hotelReal from './../assets/hotelReal.jpeg';
 export default function CeremonySection() {
   return (
-    <section className=" min-h-[559px] max-w-sm pt-16 pb-16 lg:max-w-6xl border-b border-gray-300 text-center">
-      <h2 id="ceremonia" className="font-courgette text-4xl lg:text-5xl mb-12">
-        Hospedaje
-      </h2>
+    <section
+      id="hospedaje"
+      className="min-h-[559px] max-w-sm pt-16 pb-16 lg:max-w-6xl border-b border-gray-300 text-center">
+      <h2 className="font-courgette text-4xl lg:text-5xl mb-12">Hospedaje</h2>
       <div className="flex flex-col lg:flex-row lg:gap-5 gap-5">
         <CardLocation
           img={elDiamante}
@@ -32,7 +32,7 @@ export default function CeremonySection() {
           title="Hotel Real Turqueza"
           phone="9191475089"
           location="Primera ote s/n, Sta Teresa, 29760 Jitotol"
-          mapLink="https://maps.app.goo.gl/XZ326e5svj4x4m4X7"
+          mapLink="https://maps.app.goo.gl/Yo7FMbqyQ7JQtwg19"
           cardSmall
         />
       </div>

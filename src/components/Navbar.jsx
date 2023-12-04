@@ -26,13 +26,13 @@ function Nav() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-[#85BFAB] inline-flex items-center justify-center p-2 rounded-md text-black hover:text-white hover:bg-[#85BFAB] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ringoffset-[#bf8599] focus:ring-black"
+                className="bg-[#f9d7e4] inline-flex items-center justify-center p-2 rounded-md text-black hover:bg-[#f9d7e4] "
                 aria-controls="mobile-menu"
                 aria-expanded="false">
                 <span className="sr-only">Abrir menu principal</span>
                 {!isOpen ? (
                   <svg
-                    className="block h-6 w-6"
+                    className="block h-6 w-6 text-black"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -47,7 +47,7 @@ function Nav() {
                   </svg>
                 ) : (
                   <svg
-                    className="block h-6 w-6"
+                    className="block h-6 w-6 text-black"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -73,7 +73,7 @@ function Nav() {
           leave="transition ease-in duration-75 transform"
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95">
-          <div className="md:hidden" id="mobile-menu">
+          <div className="lg:hidden" id="mobile-menu">
             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <NavList tailwindClass="text-base block" />
             </div>

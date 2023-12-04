@@ -4,7 +4,7 @@ import secondTimeline from './../assets/2Timeline.jpeg';
 import thirdTimeline from './../assets/3Timeline-hero.jpeg';
 export default function HistorySection() {
   return (
-    <section className="flex flex-col items-center text-center w-96 pt-10 pb-16 lg:my-12 lg:max-w-6xl border-b border-gray-300 min-w-max">
+    <section className="flex flex-col items-center text-center w-96 pt-10 pb-16 lg:my-6 lg:max-w-6xl border-b border-gray-300 min-w-max">
       <h2 className="font-courgette text-4xl lg:text-5xl mb-12">
         Nuestra historia
       </h2>

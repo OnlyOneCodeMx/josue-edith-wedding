@@ -11,12 +11,12 @@ export default function HistoryCard({
 }) {
   return (
     <div
-      className={`flex flex-col items-center lg:relative lg:grid lg:grid-cols-3 lg:items-center pt-8 lg:h-auto lg:w-full max-w-6xl ${
+      className={`flex flex-col items-center lg:relative lg:grid lg:grid-cols-12 lg:items-center pt-8 lg:h-auto lg:w-full max-w-6xl ${
         reverse ? 'lg:grid-flow-col-reverse' : ''
       }`}>
       <div className="absolute bg-gray-400 w-px top-0 bottom-0 left-1/2 transform -translate-x-1/2 lg:block hidden z-0"></div>
       <img
-        className={`w-80 h-80 rounded-full lg:col-span-1 lg:max-w-sm ${
+        className={`w-80 h-80 rounded-full shadow-md lg:col-span-5 lg:max-w-sm ${
           reverse ? 'lg:order-3' : ''
         }`}
         src={img}
@@ -24,7 +24,7 @@ export default function HistoryCard({
       />
 
       <div
-        className={`text-white h-14 lg:h-auto lg:col-span-1 lg:max-w-sm ${
+        className={`text-white h-14 lg:h-auto lg:col-span-2 lg:max-w-sm ${
           reverse ? 'lg:order-2' : ''
         } relative`}>
         <div
@@ -38,7 +38,7 @@ export default function HistoryCard({
       </div>
 
       <div
-        className={`h-auto max-w-sm lg:col-span-1 ${
+        className={`h-auto max-w-sm lg:col-span-5 ${
           reverse ? 'lg:order-1' : ''
         } break-words`}>
         <h3 className="font-courgette text-2xl mb-3">{title}</h3>

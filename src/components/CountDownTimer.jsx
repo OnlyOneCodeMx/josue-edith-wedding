@@ -13,24 +13,24 @@ export default function CountDownTimer() {
       <div className="flex gap-1 items-center text-slate-100 my-10 text-xl lg:text-3xl">
         <div className=" flex flex-col justify-center gap-1 w-full bg-[#bf8599] h-20 font-roboto">
           {timeLeft.days}
-          <h3 className=" text-xs lg:text-base">DAY</h3>
+          <h3 className=" text-xs lg:text-base">DIAS</h3>
         </div>
         <div className=" flex flex-col justify-center gap-1 w-full bg-[#bf8599] h-20 font-roboto">
           {timeLeft.hours}
-          <h3 className=" text-xs lg:text-base">HOUR</h3>
+          <h3 className=" text-xs lg:text-base">HORAS</h3>
         </div>
         <div className=" flex flex-col justify-center gap-1 w-full bg-[#bf8599] h-20 font-roboto">
           {timeLeft.minutes}
-          <h3 className=" text-xs lg:text-base">MINUTE</h3>
+          <h3 className=" text-xs lg:text-base">MINUTOS</h3>
         </div>
         <div className=" flex flex-col justify-center gap-1 w-full bg-[#bf8599] h-20 font-roboto">
           {timeLeft.seconds}
-          <h3 className=" text-xs lg:text-base">SECOND</h3>
+          <h3 className=" text-xs lg:text-base">SEGUNDOS</h3>
         </div>
       </div>
       <p
         id="nuestraHistoria"
-        className=" text-lg font-roboto text-slate-600 lg:text-2xl lg:px-28">
+        className="a text-lg font-roboto text-slate-600 lg:text-2xl lg:px-28 px-4">
         Siempre soñamos con encontrar a la persona ideal y ese sueño se ha hecho
         realidad, el amor nació entre nosotros y ha crecido día a día; por eso,
         queremos unirnos en matrimonio para vivir felices toda la vida.

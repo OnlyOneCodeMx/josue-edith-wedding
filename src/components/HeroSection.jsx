@@ -8,7 +8,9 @@ import { JOSUE, EDITH } from './constants';
 export default function HeroSection() {
   return (
     <>
-      <section className="relative h-screen w-full px-4 lg:flex lg:items-center lg:justify-center lg:py-9 md:h-full">
+      <section
+        id="inicio"
+        className="relative h-full w-full px-4 lg:flex lg:items-center lg:justify-center lg:py-9 md:h-full">
         <div
           className="absolute inset-0 z-0 bg-fixed bg-cover bg-center lg:bg-top brightness-50"
           style={{

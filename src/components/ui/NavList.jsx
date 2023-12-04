@@ -2,47 +2,47 @@ export default function NavList({ tailwindClass }) {
   return (
     <>
       <a
-        href="#"
-        className={`${tailwindClass} hover:bg-[#85BFAB] text-white px-3 py-2 rounded-md font-medium`}>
+        href="#inicio"
+        className={`${tailwindClass} bg-[#f9d7e4] hover:text-black px-3 py-2 rounded-md font-medium transition-all duration-500 ease-in-out`}>
         Inicio
       </a>
 
       <a
         href="#nuestroDia"
-        className={`${tailwindClass} text-black hover:bg-[#85BFAB] hover:text-black px-3 py-2 rounded-md font-medium`}>
+        className={`${tailwindClass} text-slate-950 hover:bg-[#f9d7e4] hover:text-black px-3 py-2 rounded-md font-medium transition-all duration-500 ease-in-out`}>
         Nuestro día
       </a>
 
       <a
         href="#nuestraHistoria"
-        className={`${tailwindClass} text-black hover:bg-[#85BFAB] hover:text-black px-3 py-2 rounded-md font-medium`}>
+        className={`${tailwindClass} text-slate-950 hover:bg-[#f9d7e4] hover:text-black px-3 py-2 rounded-md font-medium transition-all duration-500 ease-in-out`}>
         Nuestra historia
       </a>
 
       <a
         href="#ceremonia"
-        className={`${tailwindClass} text-black hover:bg-[#85BFAB] hover:text-black px-3 py-2 rounded-md font-medium`}>
+        className={`${tailwindClass} text-slate-950 hover:bg-[#f9d7e4] hover:text-black px-3 py-2 rounded-md font-medium transition-all duration-500 ease-in-out`}>
         Ceremonia
       </a>
 
       <a
         href="#hospedaje"
-        className={`${tailwindClass} text-black hover:bg-[#85BFAB] hover:text-black px-3 py-2 rounded-md font-medium`}>
+        className={`${tailwindClass} text-slate-950 hover:bg-[#f9d7e4] hover:text-black px-3 py-2 rounded-md font-medium transition-all duration-500 ease-in-out`}>
         Hospedaje
       </a>
       <a
         href="#galeria"
-        className={`${tailwindClass} text-black hover:bg-[#85BFAB] hover:text-black px-3 py-2 rounded-md font-medium`}>
+        className={`${tailwindClass} text-slate-950 hover:bg-[#f9d7e4] hover:text-black px-3 py-2 rounded-md font-medium transition-all duration-500 ease-in-out`}>
         Galería
       </a>
       <a
         href="#regalos"
-        className={`${tailwindClass} text-black hover:bg-[#85BFAB] hover:text-black px-3 py-2 rounded-md font-medium`}>
+        className={`${tailwindClass} text-slate-950 hover:bg-[#f9d7e4] hover:text-black px-3 py-2 rounded-md font-medium transition-all duration-500 ease-in-out`}>
         Mesa de regalos
       </a>
       <a
-        href="#"
-        className={`${tailwindClass} text-black hover:bg-[#85BFAB] hover:text-black px-3 py-2 rounded-md font-medium`}>
+        href="#confirmacion"
+        className={`${tailwindClass} text-slate-950 hover:bg-[#f9d7e4] hover:text-black px-3 py-2 rounded-md font-medium transition-all duration-500 ease-in-out`}>
         Confirmación
       </a>
     </>

@@ -3,6 +3,7 @@ import HeroSection from './HeroSection';
 import HistorySection from './HistorySection';
 import CeremonySection from './CeremonySection';
 import HostingSection from './HostingSection';
+import GalerySection from './GalerySection';
 
 export default function Main() {
   return (
@@ -12,6 +13,7 @@ export default function Main() {
       <HistorySection />
       <CeremonySection />
       <HostingSection />
+      <GalerySection />
     </main>
   );
 }

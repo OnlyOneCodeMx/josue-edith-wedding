@@ -13,8 +13,14 @@ export default function CardLocation({
   cardSmall,
 }) {
   return (
-    <div className={cardSmall ? ' lg:w-80 lg:h-[520px]' : ''}>
-      <img className="max-w-full h-auto" src={img} alt={`Foto de ${title}`} />
+    <div className={cardSmall ? ' lg:w-80 h-[520px]' : ''}>
+      <div className=" overflow-hidden">
+        <img
+          className="max-w-full h-auto hover:scale-125 transition-transform duration-500"
+          src={img}
+          alt={`Foto de ${title}`}
+        />
+      </div>
       <h3 className=" py-4 bg-[#bf8599] text-white font-courgette text-2xl text-center">
         {title}
       </h3>
@@ -48,7 +54,7 @@ export default function CardLocation({
         )}
 
         <a
-          className="text-slate-950 px-7 py-3 border-2 border-[#bf8599]"
+          className="text-slate-950 px-7 py-3 border-2 border-[#bf8599] hover:bg-[#d9a6b2] transition-all duration-500 ease-in-out"
           href={mapLink}
           target="_blank"
           rel="noreferrer">

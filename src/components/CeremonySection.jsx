@@ -3,8 +3,8 @@ import elDiamante from './../assets/elDiamante.jpeg';
 
 export default function CeremonySection() {
   return (
-    <section className="max-w-sm min-h-[559px] pt-16 pb-16 lg:max-w-6xl border-b border-gray-300 text-center">
-      <h2 id="ceremonia" className="font-courgette text-4xl lg:text-5xl mb-12">
+    <section className="lg:px-60 max-w-sm min-h-[559px] pt-16 pb-16 lg:max-w-6xl border-b border-gray-300 text-center">
+      <h2 id="ceremonia" className="font-courgette text-4xl lg:text-5xl mb-16">
         Ceremonia
       </h2>
       <CardLocation
