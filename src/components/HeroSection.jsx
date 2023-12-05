@@ -30,7 +30,7 @@ export default function HeroSection() {
 
             <img
               id="nuestroDia"
-              className="w-24 h-24 lg:w-32 lg:h-32"
+              className="animate-heartBeat w-24 h-24 lg:w-32 lg:h-32 z-30"
               src={corazon1}
               alt=""
             />

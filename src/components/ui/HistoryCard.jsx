@@ -28,7 +28,7 @@ export default function HistoryCard({
           reverse ? 'lg:order-2' : ''
         } relative`}>
         <div
-          className=" w-24 h-24 bg-cover -mt-9 flex flex-col justify-center font-medium lg:m-auto z-50"
+          className="animate-heartBeat w-24 h-24 bg-cover -mt-9 flex flex-col justify-center font-medium lg:m-auto z-50"
           style={{
             backgroundImage: `url(${heart})`,
           }}>
