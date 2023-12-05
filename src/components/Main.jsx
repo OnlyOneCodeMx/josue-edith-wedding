@@ -4,6 +4,7 @@ import HistorySection from './HistorySection';
 import CeremonySection from './CeremonySection';
 import HostingSection from './HostingSection';
 import GalerySection from './GalerySection';
+import ConfirmationSection from './ui/ConfirmationSection';
 
 export default function Main() {
   return (
@@ -14,6 +15,7 @@ export default function Main() {
       <CeremonySection />
       <HostingSection />
       <GalerySection />
+      <ConfirmationSection />
     </main>
   );
 }

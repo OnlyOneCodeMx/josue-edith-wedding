@@ -54,7 +54,7 @@ export default function CardLocation({
         )}
 
         <a
-          className="text-slate-950 px-7 py-3 border-2 border-[#bf8599] hover:bg-[#d9a6b2] transition-all duration-500 ease-in-out"
+          className="text-slate-950 border-2 border-[#bf8599] hover:bg-[#d9a6b2] transition-all duration-500 ease-in-out mt-4 w-full p-4 rounded-lg "
           href={mapLink}
           target="_blank"
           rel="noreferrer">
