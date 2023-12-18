@@ -75,7 +75,10 @@ function Nav() {
           leaveTo="opacity-0 scale-95">
           <div className="lg:hidden" id="mobile-menu">
             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <NavList tailwindClass="text-base block" />
+              <NavList
+                closeMenu={() => setIsOpen(false)}
+                tailwindClass="text-base block"
+              />
             </div>
           </div>
         </Transition>
